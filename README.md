@@ -1,12 +1,17 @@
 <div align="center">
   
 ## Sistema-de-edicao-de-composicoes-feroviarias-Por-Arquivo-De-Texto
+
+<div/>
+  
 Com base no Sistema-de-edicao-de-composicoes-feroviarias fazer as seguintes funcionalidade com uso de arquivo de texto:
--`Escreva um programa capaz de ler exibir na tela um arquivo, organizado com um registro por linha, com os dados de locomotivas`: para saber:
--Identificador da locomotiva (int);
--Peso máximo (em toneladas) que consegue puxar (double);
--Número máximo de vagões que consegue tracionar (int);
-` Escreva um programa que permita a criação do arquivo de locomotivas definido na questão da funcionalidade`:  O programa deve solicitar os dados de um número não definido de locomotivas e, quando o usuário encerrar a entrada dos dados, armazenar os dados em um arquivo texto.Deve ser possível informar o nome de um arquivo existente pela linha de comando. Nesse caso os dados são previamente carregados na memória e os novos dados acrescidos a estes.
+
+-`Escreva um programa capaz de ler exibir na tela um arquivo, organizado com um registro por linha, com os dados de locomotivas`:Para saber:
+`Identificador da locomotiva (int)`;
+`Peso máximo (em toneladas) que consegue puxar (double)`;
+`Número máximo de vagões que consegue tracionar (int)`;
+
+-`Escreva um programa que permita a criação do arquivo de locomotivas definido na questão da funcionalidade`:  O programa deve solicitar os dados de um número não definido de locomotivas e, quando o usuário encerrar a entrada dos dados, armazenar os dados em um arquivo texto.Deve ser possível informar o nome de um arquivo existente pela linha de comando. Nesse caso os dados são previamente carregados na memória e os novos dados acrescidos a estes.
 
 O Sistema-de-edicao-de-composicoes-feroviarias que têm as seguintes especificações:
 Uma empresa ferroviária de transporte de cargas possui um pátio central onde ficam estacionados os trens que estão em operação. Os vagões e locomotivas livres (que não estão engatados em nenhum trem) ficam estacionados em uma garagem de vagões e em uma garagem de locomotivas, respectivamente. A empresa necessita de um sistema que permita organizar os trens que irão atender as diferentes demandas de carga da empresa. Um trem é composto por uma ou mais locomotivas e por um ou mais vagões de carga. Na montagem de um trem as locomotivas e os vagões devem ser selecionados a partir dos que estão estacionados nas garagens. 
