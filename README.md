@@ -13,7 +13,8 @@ Uma empresa ferroviária de transporte de cargas possui um pátio central onde f
 
 # :hammer: Funcionalidades do projeto
 O programa realiza os seguintes funções:
-- `Tanto as locomotivas como os vagões devem ser selecionados na ordem em que serão engatados no trem`: Com as seguintes regras:
+- `Tanto as locomotivas como os vagões devem ser selecionados na ordem em que serão engatados no trem`:
+-  Com as seguintes regras:
 - As locomotivas devem ser as primeiras a serem selecionadas. Não é possível “engatar” uma locomotiva após um vagão.
 - O total de vagões que podem ser engatados devem respeitar as limitações do conjunto de locomotivas (peso máximo que conseguem puxar e número máximo de vagões que conseguem tracionar). Para o cálculo do peso máximo considerar o peso do vagão com carga máxima.
 - ` a partir da segunda locomotiva engatada`: a capacidade total do conjunto de locomotivas deve ser reduzida em 10% a cada nova locomotiva engatada.
