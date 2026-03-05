@@ -17,7 +17,6 @@ locomotiva=new ArrayList<>();
 contloc=0;    
 }
 
-// Método para adicionar uma locomotiva ao cadastro
 public void adicionarLocomotiva(Locomotiva loc) {
     locomotiva.add(loc);
 }
@@ -31,7 +30,6 @@ Path path = Paths.get(nameComplete);
 try (Scanner sc = new Scanner(Files.newBufferedReader(path, StandardCharsets.UTF_8))){
     while (sc.hasNext()){
         String linha = sc.nextLine();
-        //System.out.println(linha);
         String dados[] = linha.split(";");
 
         int idlocomotiva = Integer.parseInt(dados[0]);
@@ -76,4 +74,5 @@ public String toString(){
     return str;
 }
 }
+
 
