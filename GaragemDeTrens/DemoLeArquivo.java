@@ -7,17 +7,13 @@ import java.util.Scanner;
 
 public class DemoLeArquivo {
     public static void main(String args[]){
-        // Obtem o caminho para o diretório corrente
         String currDir = Paths.get("").toAbsolutePath().toString();
-        // Monta o nome do arquivo
         String nameComplete = currDir+"\\"+"numeros.dat";
-        // Cria acesso ao "diretorio" da mídia (disco)
         Path path = Paths.get(nameComplete);
 
         int acum = 0;
         double media = 0.0;
         String linha = "";
-         // Usa a classe scanner para fazer a leitura do arquivo
          try (Scanner sc = new Scanner(Files.newBufferedReader(path, StandardCharsets.UTF_8))){
             linha = sc.nextLine();
          }catch (IOException x){
@@ -33,3 +29,4 @@ public class DemoLeArquivo {
          System.out.println("Media: "+media);
     }
 }
+
